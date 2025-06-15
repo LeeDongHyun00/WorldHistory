@@ -1,7 +1,7 @@
-import React from "react";
 import * as LucideIcons from "lucide-react";
 
 export default function EventsList({ events }) {
+  // 시대별 이벤트 리스트 컴포넌트
   if (!events) {
     return (
       <div className="text-center py-8 text-xl text-white text-opacity-70">
@@ -16,7 +16,8 @@ export default function EventsList({ events }) {
     'animation-delay-300',
     'animation-delay-400',
     'animation-delay-500',
-    'animation-delay-600'
+    'animation-delay-600',
+    'animation-delay-700',
   ];
 
   return (
@@ -28,7 +29,7 @@ export default function EventsList({ events }) {
           return (
             <li
               key={idx}
-              className={`opacity-0 glass-effect w-4/5 my-5 rounded-2xl p-6 transition-all duration-300 flex items-center gap-4 scale-95 opacity-80 animate-fade-in-up glass-hover hover:scale-105 hover:shadow-xl ${delayClasses[idx % delayClasses.length]}`}
+              className={`opacity-0 glass-effect w-4/5 my-5 rounded-2xl p-6 transition-all duration-300 flex items-center gap-4 scale-95 opacity-80 animate-fade-in-up glass-hover hover:scale-105 hover:shadow-xl ${delayClasses[idx]}`}
             >
               <div className="glass-effect rounded-full p-3 flex items-center justify-center min-w-12 h-12 text-white">
                   <IconComponent size={24} />

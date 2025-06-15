@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Main from "./Pages/Main";
@@ -122,7 +122,6 @@ function App() {
                   <Component
                     name={era.name}
                     description={era.description}
-                    color={era.color}
                     events={era.events}
                   />
                 }

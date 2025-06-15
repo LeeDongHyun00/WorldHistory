@@ -18,15 +18,4 @@ export const getEras = async () => {
   }
 };
 
-// 특정 시대 정보 가져오기
-export const getEraById = async (id) => {
-  try {
-    const response = await api.get(`/eras?id=${id}`);
-    return response.data[0];
-  } catch (error) {
-    console.error(`Error fetching era ${id}:`, error);
-    throw error;
-  }
-};
-
 export default api;
