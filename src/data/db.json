@@ -1,0 +1,234 @@
+{
+  "eras": [
+    {
+      "id": "ancient",
+      "name": "고대",
+      "description": "고대는 인류 문명의 시작부터 약 5세기까지의 시기를 말합니다. 이 시기는 농업의 발전, 도시 국가의 형성, 문자 사용의 시작 등 인류 역사에서 중요한 변화를 겪은 시기입니다.",
+      "color": "#f0e68c",
+      "events": [
+        {
+          "year": -3000,
+          "eventTitle": "메소포타미아 문명 시작",
+          "icon": "Building2",
+          "source": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%86%8C%ED%8F%AC%ED%83%80%EB%AF%B8%EC%95%84"
+        },
+        {
+          "year": -2500,
+          "eventTitle": "이집트 피라미드 건설 시작",
+          "icon": "Triangle"
+        },
+        {
+          "year": -2333,
+          "eventTitle": "고조선 건국",
+          "icon": "Crown"
+        },
+        {
+          "year": -1200,
+          "eventTitle": "트로이 전쟁 시작",
+          "icon": "Swords"
+        },
+        {
+          "year": -753,
+          "eventTitle": "로마 건국",
+          "icon": "Castle"
+        },
+        {
+          "year": -776,
+          "eventTitle": "고대 올림픽 시작",
+          "icon": "Trophy"
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "name": "중세",
+      "color": "#d3d3d3",
+      "description": "중세는 5세기부터 15세기까지의 시기를 말합니다. 이 시기는 봉건제와 교회의 권력이 강했던 시기로, 유럽에서는 기사와 성직자의 지배가 두드러졌습니다. 또한, 이슬람 제국의 확장과 동서 교류가 활발했던 시기이기도 합니다.",
+      "events": [
+        {
+          "year": 476,
+          "eventTitle": "서로마 제국 멸망",
+          "icon": "Zap"
+        },
+        {
+          "year": 800,
+          "eventTitle": "카롤루스 대제 대관식",
+          "icon": "Crown"
+        },
+        {
+          "year": 1096,
+          "eventTitle": "제1차 십자군 전쟁 시작",
+          "icon": "Cross"
+        },
+        {
+          "year": 1215,
+          "eventTitle": "마그나 카르타 서명",
+          "icon": "Scroll"
+        },
+        {
+          "year": 1347,
+          "eventTitle": "흑사병 유럽 확산 시작",
+          "icon": "Skull"
+        },
+        {
+          "year": 1392,
+          "eventTitle": "조선 왕조 시작",
+          "icon": "Castle"
+        },
+        {
+          "year": 1453,
+          "eventTitle": "동로마 제국 멸망",
+          "icon": "Shield"
+        }
+      ]
+    },
+    {
+      "id": "renaissance",
+      "name": "르네상스",
+      "color": "#ffcc00",
+      "description": "르네상스는 14세기부터 17세기까지의 시기를 말합니다. 이 시기는 고대 그리스와 로마 문화를 재발견하고, 예술, 과학, 철학 등 다양한 분야에서 혁신이 일어난 시기입니다. 또한, 인쇄술의 발명으로 지식의 확산이 가속화되었습니다.",
+      "events": [
+        {
+          "year": 1492,
+          "eventTitle": "콜럼버스 아메리카 대륙 발견",
+          "icon": "Ship"
+        },
+        {
+          "year": 1517,
+          "eventTitle": "마르틴 루터의 95개조 반박문 발표",
+          "icon": "FileText"
+        },
+        {
+          "year": 1543,
+          "eventTitle": "코페르쿠니스 지동설 발표",
+          "icon": "Sun"
+        },
+        {
+          "year": 1687,
+          "eventTitle": "아이작 뉴턴이 '자연철학의 수학적 원리' 출판",
+          "icon": "Book"
+        },
+        {
+          "year": 1600,
+          "eventTitle": "과학 혁명 시작",
+          "icon": "Microscope"
+        }
+      ]
+    },
+    {
+      "id": "enlightenment",
+      "name": "계몽주의",
+      "color": "#add8e6",
+      "description": "계몽주의는 17세기부터 18세기까지의 시기를 말합니다. 이 시기는 이성, 과학, 개인의 권리 등을 중시하며, 전통적인 권위와 종교적 신념에 도전하는 사상이 확산된 시기입니다. 계몽주의 사상은 후에 민주주의와 인권 개념의 발전에 큰 영향을 미쳤습니다.",
+      "events": [
+        {
+          "year": 1685,
+          "eventTitle": "프랑스 낭트 칙령 폐지",
+          "icon": "Gavel",
+          "source": "https://ko.wikipedia.org/wiki/%EB%82%AD%ED%8A%B8_%EC%B9%99%EB%A0%B9"
+        },
+        {
+          "year": 1751,
+          "eventTitle": "디드로와 달랑베르의 백과사전 출판",
+          "icon": "BookOpen"
+        },
+        {
+          "year": 1776,
+          "eventTitle": "미국 독립 선언",
+          "icon": "Flag"
+        },
+        {
+          "year": 1789,
+          "eventTitle": "프랑스 혁명 시작",
+          "icon": "Flame"
+        },
+        {
+          "year": 1799,
+          "eventTitle": "나폴레옹의 쿠데타",
+          "icon": "Sword",
+          "source": "https://ko.wikipedia.org/wiki/%EB%82%98%ED%8F%B4%EB%A0%88%EC%98%B9_%EB%B3%B4%EB%82%98%ED%8C%8C%EB%A5%B4%ED%8A%B8"
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "name": "근대",
+      "color": "#ffa07a",
+      "description": "근대는 19세기 중반부터 20세기 초반까지의 시기를 말합니다. 이 시기는 산업혁명과 함께 시작되어, 사회, 경제, 정치, 문화 등 다양한 분야에서 큰 변화가 일어났습니다. 특히, 서구 열강의 식민지 확장과 제국주의가 두드러진 시기이기도 합니다.",
+      "events": [
+        {
+          "year": 1850,
+          "eventTitle": "산업혁명 시작",
+          "icon": "Cog"
+        },
+        {
+          "year": 1861,
+          "eventTitle": "미국 남북전쟁 시작",
+          "icon": "Swords"
+        },
+        {
+          "year": 1892,
+          "eventTitle": "조선 왕조 500년",
+          "icon": "Calendar"
+        },
+        {
+          "year": 1896,
+          "eventTitle": "우라늄에서 방사선 발견",
+          "icon": "Zap",
+          "source": "https://ko.wikipedia.org/wiki/%EC%95%99%EB%A6%AC_%EB%B2%A0%ED%81%AC%EB%A0%90"
+        },
+        {
+          "year": 1903,
+          "eventTitle": "라이트 형제의 플라이어 1호가 12초동안 비행에 성공",
+          "icon": "Plane"
+        }
+      ]
+    },
+    {
+      "id": "contemporary",
+      "name": "현대",
+      "color": "#90ee90",
+      "description": "현대는 20세기 중반부터 현재까지의 시기를 말합니다. 이 시기에는 냉전, 세계화, 정보화 사회 등 큰 변화가 일어났습니다",
+      "events": [
+        {
+          "year": 1945,
+          "eventTitle": "제2차 세계대전 종전",
+          "icon": "ShieldCheck"
+        },
+        {
+          "year": 1962,
+          "eventTitle": "레이첼의 '침묵의 봄' 출간",
+          "icon": "Leaf",
+          "source": "https://ko.wikipedia.org/wiki/%EC%B9%A8%EB%AC%B5%EC%9D%98_%EB%B4%84"
+        },
+        {
+          "year": 1969,
+          "eventTitle": "아폴로 11호 달 착륙",
+          "icon": "Rocket"
+        },
+        {
+          "year": 1991,
+          "eventTitle": "소련 해체",
+          "icon": "Building"
+        },
+        {
+          "year": 2007,
+          "eventTitle": "아이폰 첫 출시",
+          "icon": "Smartphone"
+        },
+        {
+          "year": 2008,
+          "eventTitle": "세계 금융위기 발생",
+          "icon": "TrendingDown",
+          "source": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84_%EA%B5%AD%EC%A0%95_%EC%9C%84%EA%B8%B0"
+        },
+        {
+          "year": 2023,
+          "eventTitle": "스페이스X의 스타링크 발사된 위성의 수가 5000개를 넘어섬",
+          "icon": "Satellite",
+          "source": "https://www.spaceradar.co.kr/news/articleView.html?idxno=2147"
+        }
+      ]
+    }
+  ]
+}
